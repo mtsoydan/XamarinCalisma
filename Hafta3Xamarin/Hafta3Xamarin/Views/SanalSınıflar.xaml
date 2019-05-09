@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local ="clr-namespace:Hafta3Xamarin.Data;assembly=Hafta3Xamarin"
+             x:Class="Hafta3Xamarin.Views.SanalSınıflar">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:imageSourceConverter x:Key="imageKonverter"></local:imageSourceConverter>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <ListView x:Name="lstview" ItemsSource="{Binding .}" Footer="{Binding Count ,Source={x:Static local:MTSFactory.MTSData}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        
+                            <ImageCell Text="{Binding Title} " TextColor="red" Detail="{Binding Description}"
+                                  ImageSource="{Binding ImageURL, Converter={StaticResource imageKonverter}}"  ></ImageCell>
+                    </DataTemplate>
+                    
+                </ListView.ItemTemplate>
+                <ListView.FooterTemplate>
+                    <DataTemplate>
+                        <ContentView>
+                            <Label VerticalTextAlignment="Center" VerticalOptions="End" 
+                                   Text="{Binding .}"></Label>
+                        </ContentView>
+                    </DataTemplate>
+                    
+                    
+                </ListView.FooterTemplate>
+               
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

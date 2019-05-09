@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\bin\Debug\netstandard2.0\Hafta3Xamarin.deps.json
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\bin\Debug\netstandard2.0\Hafta3Xamarin.dll
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\bin\Debug\netstandard2.0\Hafta3Xamarin.pdb
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Hafta3Xamarin.csprojAssemblyReference.cache
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Views\ListViewOrnek.xaml.g.cs
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Hafta3Xamarin.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Hafta3Xamarin.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Hafta3Xamarin.AssemblyInfo.cs
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Hafta3Xamarin.dll
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Hafta3Xamarin.pdb
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\obj\Debug\netstandard2.0\Views\SanalSınıflar.xaml.g.cs
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\bin\Debug\netstandard2.0\images\AcikAkademi.png
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\bin\Debug\netstandard2.0\images\indir.jpg
+C:\Users\asus\source\repos\Hafta3Xamarin\Hafta3Xamarin\Hafta3Xamarin\bin\Debug\netstandard2.0\images\mts.jpg

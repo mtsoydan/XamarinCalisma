@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hafta3Xamarin.Views.ListViewOrnek">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ListView x:Name="lstView" ItemSelected="LstView_ItemSelected" ItemsSource="{Binding .}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <!--<StackLayout>
+                                <Button Text="Denemeee123" TextColor="Red" Clicked="Button_Clicked" CommandParameter="{Binding ID}"></Button>
+                                
+
+
+                            </StackLayout>-->
+                            <StackLayout>
+                                <Label Text="{Binding Name}"></Label>
+                                <Image Source="{Binding ImageUrl}" HeightRequest="30" ></Image>
+                                <Button Text="Sil" BackgroundColor="Red" CommandParameter="{Binding ID}" Clicked="Button_Clicked"></Button>
+
+
+                            </StackLayout>
+                            
+                           
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
